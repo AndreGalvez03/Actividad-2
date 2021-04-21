@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+}
+a:visited {
+    text-decoration: none; 
+    color: blue; 
+   }
+
+.top { 
+    text-align: center;
+    position: static;
+    margin-top: 1.4cm;
+}
+
+.left {
+    text-align: justify;
+    position: relative;
+    margin-left: 5.5cm;
+    width: 400px;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 560px;;
+}
+
+.right {
+    text-align: justify;
+    position: relative;
+    margin-right: 5.5cm;
+    width: 400px;
+    float: right;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 560px;;
+
+}
+
+.tab {
+    margin-left: 6.5em
+}
